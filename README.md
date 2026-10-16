@@ -7,6 +7,7 @@ Small, offline-first tools for LinkedIn career growth and job search. No LinkedI
 | [postlint](packages/postlint) | v0.1 | Lint post drafts and PDF carousels before you publish manually |
 | [li-metrics](packages/li-metrics) | v0.1 | LinkedIn analytics XLSX to SQLite to weekly report |
 | [bawsala-feeds](packages/bawsala-feeds) | v0.1 | Terms-aware job feeds (Arbeitnow, Remotive, Adzuna, Reed) + rule scoring |
+| [apply-kit](packages/apply-kit) | v0.1 | Facts file, truth-checked CV tailoring, application ledger (never submits) |
 | [MCP pre-install checklist](docs/mcp-preinstall-checklist.md) | v0.1 | Vetting checklist before installing any MCP server |
 
 ## Terms and guardrails

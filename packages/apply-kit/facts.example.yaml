@@ -1,0 +1,16 @@
+# Copy to private/facts.yaml (gitignored) and fill with VERIFIABLE facts only. No invented metrics.
+name: Your Name
+contact: { email: you@example.com, linkedin: linkedin.com/in/your-handle }
+anonymize: [ClientNameHere]          # these may never appear in tailored text
+extra_vocabulary: []                 # extra tool names to police
+summary_facts:
+  - "8+ years in QA across telecom, fintech and e-commerce"
+experience:
+  - employer: Example Co
+    role: Senior QA Engineer
+    dates: "Jan 2022 - Present"
+    facts:
+      - "Owned test strategy for the squad"
+skills: [Selenium, Postman]
+education: []
+certifications: []

@@ -15,6 +15,7 @@ members = ["packages/*"]
 postlint = { workspace = true }
 li-metrics = { workspace = true }
 bawsala-feeds = { workspace = true }
+apply-kit = { workspace = true }
 
 [tool.ruff]
 line-length = 100

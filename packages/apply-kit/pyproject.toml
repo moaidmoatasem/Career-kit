@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "apply-kit"
+version = "0.1.0"
+description = "Job-application copilot: verified facts file, truth-checked CV tailoring prompts, application ledger. Never submits anything."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = ["pyyaml>=6"]
+
+[project.scripts]
+apply-kit = "apply_kit.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/apply_kit"]
