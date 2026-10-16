@@ -20,6 +20,8 @@ jobs:
       - run: uv sync --all-packages
       - run: uv run ruff check .
       - run: uv run pytest packages/postlint --cov=postlint --cov-fail-under=85
+      - run: uv run pytest packages/li-metrics --cov=li_metrics --cov-fail-under=85
+      - run: uv run pytest packages/bawsala-feeds --cov=bawsala_feeds --cov-fail-under=85
   secrets:
     runs-on: ubuntu-latest
     steps:

@@ -4,12 +4,15 @@ build-backend = "hatchling.build"
 
 [project]
 name = "li-metrics"
-version = "0.0.0"
-description = "LinkedIn creator-analytics XLSX to SQLite to weekly report (planned, milestone M2)."
+version = "0.1.0"
+description = "LinkedIn creator-analytics XLSX export to SQLite to a weekly Markdown report."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.11"
 dependencies = ["openpyxl>=3.1"]
+
+[project.scripts]
+li-metrics = "li_metrics.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/li_metrics"]

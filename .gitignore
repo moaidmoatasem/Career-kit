@@ -9,3 +9,4 @@ dist/
 blocklist*.txt
 !tests/**/blocklist*.txt
 *.db
+private/

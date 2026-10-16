@@ -1,0 +1,6 @@
+title: { "qa lead": 5, "test manager": 5, "quality engineering": 4, "head of qa": 5, "test lead": 4, "sdet": 1 }
+description: { "tmf": 2, "telecom": 2, "api testing": 1, "automation": 1 }
+location: { "dubai": 2, "riyadh": 2, "london": 1, "united kingdom": 1, "cairo": 1 }
+remote_bonus: 2
+visa_bonus: 3
+exclude: ["intern", "junior"]

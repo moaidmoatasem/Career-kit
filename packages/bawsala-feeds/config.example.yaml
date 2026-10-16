@@ -1,0 +1,9 @@
+# Copy to config.yaml. Secrets come from environment variables, never this file:
+#   ADZUNA_APP_ID, ADZUNA_APP_KEY, REED_API_KEY
+sources:
+  arbeitnow: { enabled: true }
+  remotive: { enabled: true, category: qa, search: "QA lead", limit: 50 }   # max 4 calls/day enforced
+  adzuna: { enabled: false, country: gb, what: "QA lead", limit: 50 }
+  reed: { enabled: false, what: "QA lead", limit: 50 }
+rules: rules.example.yaml
+shortlist_size: 15

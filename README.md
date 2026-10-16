@@ -5,7 +5,8 @@ Small, offline-first tools for LinkedIn career growth and job search. No LinkedI
 | Package | Status | Purpose |
 |---|---|---|
 | [postlint](packages/postlint) | v0.1 | Lint post drafts and PDF carousels before you publish manually |
-| [li-metrics](packages/li-metrics) | planned (M2) | LinkedIn analytics XLSX to SQLite to weekly report |
+| [li-metrics](packages/li-metrics) | v0.1 | LinkedIn analytics XLSX to SQLite to weekly report |
+| [bawsala-feeds](packages/bawsala-feeds) | v0.1 | Terms-aware job feeds (Arbeitnow, Remotive, Adzuna, Reed) + rule scoring |
 | [MCP pre-install checklist](docs/mcp-preinstall-checklist.md) | v0.1 | Vetting checklist before installing any MCP server |
 
 ## Terms and guardrails
@@ -19,7 +20,7 @@ Small, offline-first tools for LinkedIn career growth and job search. No LinkedI
 
 ```
 uv sync --all-packages
-uv run pytest packages/postlint --cov=postlint --cov-fail-under=85
+uv run pytest --cov-fail-under=85  # or per package, see CI
 uv run ruff check .
 pre-commit install
 ```
