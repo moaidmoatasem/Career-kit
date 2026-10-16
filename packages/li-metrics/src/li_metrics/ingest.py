@@ -90,6 +90,7 @@ def ingest(xlsx: Path, con: sqlite3.Connection) -> dict[str, int]:
                         db.upsert_post(con, url.strip(), pdate, vals)
                         counts["posts"] += 1
             break
+    wb.close()
     con.commit()
     return counts
 
