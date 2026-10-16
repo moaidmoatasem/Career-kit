@@ -1,0 +1,7 @@
+- id: postlint
+  name: postlint
+  description: Lint LinkedIn post drafts (length, hook, blocklist, PDF hygiene).
+  entry: postlint check
+  language: python
+  files: '\.md$'
+  types: [markdown]
